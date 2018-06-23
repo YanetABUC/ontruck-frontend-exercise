@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'ontruck';
+  src:  url('fonts/ontruck.eot?kcr5x2');
+  src:  url('fonts/ontruck.eot?kcr5x2#iefix') format('embedded-opentype'),
+    url('fonts/ontruck.ttf?kcr5x2') format('truetype'),
+    url('fonts/ontruck.woff?kcr5x2') format('woff'),
+    url('fonts/ontruck.svg?kcr5x2#ontruck') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ontruck' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-box-van .path1:before {
+  content: "\e900";
+  color: rgb(155, 169, 176);
+}
+.icon-box-van .path2:before {
+  content: "\e901";
+  margin-left: -1.5712890625em;
+  color: rgb(255, 255, 255);
+}
+.icon-full-trailer:before {
+  content: "\e902";
+  color: #9ba9b0;
+}
+.icon-rigid-truck:before {
+  content: "\e903";
+  color: #9ba9b0;
+}
+.icon-van:before {
+  content: "\e904";
+  color: #9ba9b0;
+}
+.icon-search:before {
+  content: "\e986";
+}

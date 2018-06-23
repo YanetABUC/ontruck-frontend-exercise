@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  background-color: #F0F2F6;
+}
+
+.gap-top-m {
+  margin-top: 20px;
+}
+
+
+h1 {
+  font-weight: bold;
+}
+
+
+.search-box input {
+  border: 2px solid #9BA9B0;
+  max-width: 200px;
+  padding: 5px;
+  font-size: 12px;
+  color: #9BA9B0;
+  font-weight: bold;
+}
+
+.card-truck {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #9BA9B0;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px #9BA9B0;
+  -moz-box-shadow: 1px 1px #9BA9B0;
+  -webkit-box-shadow: 1px 1px #9BA9B0;
+  overflow-y: auto;
+}
+
+.card-truck .card-truck-header {
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 0.3em;
+  margin-bottom: 10px;
+}
+
+.card-truck .card-truck-content h5 {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #383E42;
+}
+
+.card-truck .card-truck-content .driver-box {
+  margin-top: 20px;
+}
+
+.card-truck .card-truck-content .driver-box label {
+  display: block;
+  line-height: 10px;
+}
+
+.card-truck .card-truck-content.no-drivers h5 {
+  text-align: center;
+}
+
+.card-truck .card-truck-content .driver-box label.driver-name {
+  color: #5C6165;
+  font-size: 0.8em;
+}
+
+.card-truck .card-truck-content .driver-box label.driver-email {
+  color: #AFBBC0;
+  font-size: 0.7em;
+
+}
+
+.toolbars ul{
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: .50rem;
+}
+
+.toolbars span, .toolbars nav{
+  display: inline-block !important;
+}
+
+.toolbars ul .nav-item:first-child .item-link {
+  margin-left: 0;
+  border-top-left-radius: .50rem;
+  border-bottom-left-radius: .50rem;
+}
+
+.item-link {
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #9BA9B0;
+  background-color: #fff;
+  border: 2px solid #9BA9B0;
+  border-collapse: collapse;
+}
+
+.item-link:hover, .item-link.active{
+  background-color: #C3EFFF;
+  border-color: #39ABEA;
+  text-decoration: none;
+  color: #68747B;
+  cursor: pointer;
+}
+
+.nav-item:last-child .item-link {
+  border-top-right-radius: .50rem;
+  border-bottom-right-radius: .50rem;
+}
+
+.addon {
+  position: relative;
+  right: 30px;
+  top: 2px;
+  z-index: 2;
+  color: #9BA9B0;
+}
